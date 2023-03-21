@@ -1,4 +1,4 @@
-i#include "dog.h"
+#include "dog.h"
 #include <stdlib.h>
 /**
  * free_dog - frees memory of structure dogs
@@ -14,4 +14,5 @@ if (d != 0)
 free(d->name);
 free(d->owner);
 free(d);
+}
 }
