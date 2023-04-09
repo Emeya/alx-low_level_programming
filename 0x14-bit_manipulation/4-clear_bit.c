@@ -17,7 +17,6 @@ return (-1);
 
 m = 1 << index;
 
-	
 if (*n & m)
 *n ^= m;
 
